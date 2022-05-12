@@ -10,3 +10,4 @@ Simulating a control logic of a gas pedal system using MATLAB/Simulink and State
 . Voltage less than 0.3V and more than 3V means there is short circuit in the sensor. So the system should enter degraded mode.<br>
 . If one sensor has short circuit the max output should be 20% <br>
 . If two sensors have short circuit the system should enter total fault state and the output should 0%.<br>
+. Coherency between the two sensors should be checked and if coherency error exist the system should enter total fault state.
